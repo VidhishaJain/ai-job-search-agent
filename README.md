@@ -40,6 +40,10 @@ MCP (Model Context Protocol) is the standard way an AI agent plugs into apps.
 - **It checks its own work.** After writing to the tracker, it reads the rows back to confirm every column is filled.
 - **Read-only on existing files.** It never edits or deletes anything it did not create.
 
+## Results
+
+Each run ends with a ranked shortlist of every qualifying role and full application packs for the strongest matches. The agent is designed to build up to five packs per run, so on a three-runs-a-week schedule it can prepare up to 15 tailored applications a week, each one waiting for human approval.
+
 ## What I ran into
 
 - **Big names crowded out the rest.** One broad search returned mostly large firms. Splitting the search into separate groups fixed it.
