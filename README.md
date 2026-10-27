@@ -14,7 +14,7 @@ The agent runs as a scheduled Claude task. Each run goes end to end with no one 
 2. **Search** company career pages for open roles
 3. **Filter** by role type, level, years of experience and location
 4. **Score** each remaining role from 0 to 100 against a master CV
-5. **Draft** a tailored CV and cover letter for the top five roles
+5. **Draft** a tailored CV and cover letter for the top 5 roles
 6. **Log** every scored role to a tracker, with its source, fit score and notes
 
 A second scheduled task drafts follow-up messages a week after an application goes out. It never sends them.
@@ -42,7 +42,7 @@ MCP (Model Context Protocol) is the standard way an AI agent plugs into apps.
 
 ## Results
 
-Each run ends with a ranked shortlist of every qualifying role and full application packs for the strongest matches. The agent is designed to build up to five packs per run, so on a three-runs-a-week schedule it can prepare up to 15 tailored applications a week, each one waiting for human approval.
+Each run ends with a ranked shortlist of every qualifying role and full application packs for the strongest matches. The agent is designed to build up to 5 packs per run, so at 3 runs a week it can prepare up to 15 tailored applications a week, each one waiting for human approval.
 
 ## What I ran into
 
